@@ -14,6 +14,7 @@ namespace TestWCFService
     {
 
         [OperationContract]
+        [WebGet(UriTemplate = "/GetData?value={value}", RequestFormat =WebMessageFormat.Json,ResponseFormat =WebMessageFormat.Json)]
         string GetData(int value);
 
         [OperationContract]

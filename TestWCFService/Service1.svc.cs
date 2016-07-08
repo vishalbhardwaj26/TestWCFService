@@ -14,7 +14,7 @@ namespace TestWCFService
     {
         public string GetData(int value)
         {
-            return string.Format("Vishal: You entered: {0}", value);
+            return string.Format("VishalBhardwaj: You entered: {0}", value);
         }
 
         public CompositeType GetDataUsingDataContract(CompositeType composite)

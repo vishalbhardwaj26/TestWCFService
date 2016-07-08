@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationUsingServ
 		{76ECC898-2C5C-491F-BB40-88F946C86C33} = {76ECC898-2C5C-491F-BB40-88F946C86C33}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationUsingHttpRest", "ConsoleApplicationUsingHttpRest\ConsoleApplicationUsingHttpRest.csproj", "{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{B47B6D66-6F47-4AB8-B984-AA0AA46B1F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B47B6D66-6F47-4AB8-B984-AA0AA46B1F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B47B6D66-6F47-4AB8-B984-AA0AA46B1F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
