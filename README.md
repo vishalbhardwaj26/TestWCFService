@@ -14,14 +14,14 @@ Call service from remote PC
 Not edit web.config + use local IIS in “properties->web” to create virtual directory.
 Now even you can close all solution, when your PC is on, your service is on. Any changes in service file will be reflected inn IIS immediately, because Virtual directory points to project folder.
 Issue Not resolved: both PC should be on same wifi, either on mobile or on home Wifi.
-On remote PC: use browser http://192.168.1.3/TestWCFService/Service1.svc
+On remote PC: use browser http://xxx.xxx.xxx.xxx/TestWCFService/Service1.svc
 SOAP:
 Now you can use either svcutil to create proxy and config file OR
 You can directly add as service refernce in your console app and type complete IP address with service1.svc to disocver, which would add proxy and changes the config file as well.
 Call service using http request from remote PC (restful services)
 Changes in config file to expose web http message
 Changes in contract to define WebGet attribute
-Now you can directly hit in browser with rest api “http://192.168.1.3/TestWCFService/Service1.svc/GetData?value=102”
+Now you can directly hit in browser with rest api “http://xxx.xxx.xxx.xxx/TestWCFService/Service1.svc/GetData?value=102”
 Or you can use HttpClient with Uri without adding any service reference (not needed if you are using complete uri)
 Using httpClient to post as well get using uri links without adding any service ref in client project.
 Even if we don’t have data contract , we can make similar structure with required fields only to post as key value pair in json string to serialize. (see example)
