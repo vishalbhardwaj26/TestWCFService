@@ -30,4 +30,6 @@ namespace TestWCFService
             return composite;
         }
     }
+
+    
 }

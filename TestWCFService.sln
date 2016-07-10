@@ -5,14 +5,16 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWCFService", "TestWCFService\TestWCFService.csproj", "{76ECC898-2C5C-491F-BB40-88F946C86C33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsoleApplication", "ClientConsoleApplication\ClientConsoleApplication.csproj", "{728430FB-9F5D-4A0D-95DE-79A0242278F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsoleApplicationUsingSvcUtilProxy_Soap", "ClientConsoleApplication\ClientConsoleApplicationUsingSvcUtilProxy_Soap.csproj", "{728430FB-9F5D-4A0D-95DE-79A0242278F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationUsingServiceRef", "ConsoleApplicationUsingServiceRef\ConsoleApplicationUsingServiceRef.csproj", "{B47B6D66-6F47-4AB8-B984-AA0AA46B1F0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationUsingServiceRef_Soap", "ConsoleApplicationUsingServiceRef\ConsoleApplicationUsingServiceRef_Soap.csproj", "{B47B6D66-6F47-4AB8-B984-AA0AA46B1F0F}"
 	ProjectSection(ProjectDependencies) = postProject
 		{76ECC898-2C5C-491F-BB40-88F946C86C33} = {76ECC898-2C5C-491F-BB40-88F946C86C33}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationUsingHttpRest", "ConsoleApplicationUsingHttpRest\ConsoleApplicationUsingHttpRest.csproj", "{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationUsingHttpRestWithoutRef", "ConsoleApplicationUsingHttpRest\ConsoleApplicationUsingHttpRestWithoutRef.csproj", "{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationUsingHttpWebChannelFactory", "ConsoleApplicationUsingHttpWcfRest\ConsoleApplicationUsingHttpWebChannelFactory.csproj", "{F114748C-B5CA-4FD1-B42D-A6AF2012956A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,10 @@ Global
 		{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1AFCD68-8AE0-498F-A3FA-D967F7AD0988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F114748C-B5CA-4FD1-B42D-A6AF2012956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F114748C-B5CA-4FD1-B42D-A6AF2012956A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F114748C-B5CA-4FD1-B42D-A6AF2012956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F114748C-B5CA-4FD1-B42D-A6AF2012956A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
