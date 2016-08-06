@@ -1,6 +1,6 @@
-#This is a test program around WVF service learning 
-- Create default service application
-	 - Run it(open a client service dialog) or debug it(opened in browser):  both open as different interface.
+#This is a test program around WCF service learning 
+ - Create default service application
+	  * Run it(open a client service dialog) or debug it(opened in browser):  both open as different interface.
  - User svcutil.exe to make Service1.cs (client proxy) and Output.congig (paste it in App.Config/Web.Config, if already present).
  - Use simple console application and use Service1 and config file to talk with service
  - Use another console application and add serviceReference, it automatically add config and Service proxy class.
