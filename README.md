@@ -8,10 +8,10 @@
 	- Svcutil.exe/Add service reference and use Proxy class (Soap)
 	- Using Http Client to call striaght Uri, not needed any reference (http rest)
 	- Use WebChannelfactory to dynamically access http rest verbs or functions. (http rest). It needs atleast service contracts and data contracts defined at one place dll shared by client and server. This will be used. When client and server are in our control. ChannelFactory enables you to dynamically creating a proxy object based on the Service Contract alone. You do not require to explicitly generating a proxy class or manually define. This is helpful in scenario where your service address changes frequently or DataContract changes to newer version and as a client you have lot of references to those services. So after changes happens at service side, client must update proxy.
- - Create your own proxy derived from ClientBase<IService1>, IService1; or you can work with readymade proxy ChannelFactory<IService1>
-	1. Both give you channel to work with same contract functions.
-	2. It either needs shared dll contains Iservice and data contracts shared between client and server. OR
-	3. You can define same service contract on client side with equivalence namespace. [ServiceContract(namespace=...]
+ 	- Create your own proxy derived from ClientBase<IService1>, IService1; or you can work with readymade proxy ChannelFactory<IService1>
+		1. Both give you channel to work with same contract functions.
+		2. It either needs shared dll contains Iservice and data contracts shared between client and server. OR
+		3. You can define same service contract on client side with equivalence namespace. [ServiceContract(namespace=...]
 	
  - Call service from remote PC
  	- Not edit web.config + use local IIS in “properties->web” to create virtual directory.
